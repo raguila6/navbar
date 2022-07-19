@@ -76,3 +76,27 @@ body {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu {
+    flex-direction: row;
+  }
+  .menu-item {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+  .menu-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    width: 1280px;
+  }
+}
