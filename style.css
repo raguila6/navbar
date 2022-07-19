@@ -5,7 +5,74 @@ body {
   font-family: 'Edu QLD Beginner', cursive;
 }
 
-h1 {
-  font-size:40px;
-  color: blueviolet;  
+:root {
+  --primary: #0f170f;
+  --secondary: #42cf7f;
+  --accent: #1ab2c9;
 }
+
+.brand {
+  font-size: 4em;
+  font-weight:500;
+  letter-spacing: 0.04 ;
+  line-height: 2.0em;
+}
+
+.brand span {
+    font-weight: bolder;
+    color: var(--accent);
+}
+
+.nav-bar {
+  background-color: var(--primary);
+  color: var(--secondary) 
+
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 1.5em;
+
+}
+
+.menu {
+  display:flex;
+  flex-direction:column;
+  text-align: right;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+
+.menu-toggle:hover{
+  cursor: pointer;
+  color: var(--accent);
+
+}
+
+.menuburger {
+  height: 3em;
+  width: 1.5em;
+}
+
+.menu-item {
+    margin-top: 1.5em;
+}
+
+.menu-item:hover {
+    color: var(--accent);
+    background: whitesmoke;
+}
+
+.hidden {
+  display: none;
+}
+
