@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;700&family=Edu+QLD+Beginner:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-family: 'Edu QLD Beginner', cursive;
+}
+
+h1 {
+  font-size:40px;
+  color: blueviolet;  
+}
