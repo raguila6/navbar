@@ -17,3 +17,5 @@ menuToggle.addEventListener('click', () => menu.classList.toggle('hidden'))
 window.addEventListener('resize', initMenu)
 
 initMenu()
+
+//done
